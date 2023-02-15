@@ -1,0 +1,166 @@
+.slid{padding: 60px 0;background: linear-gradient(#000000, #0A2034);}
+.slid > div{overflow: hidden;}
+.wrapper{position: relative;}
+.sohome_toptxt h1{color: #00D4FF;font-weight: 700;font-size: 45px;line-height: 50px;}
+.sohome_toptxt p{color: #fff;}
+.wrapper p.coutslider{color: #fff;}
+.counslidbx{margin: 40px 0;}
+.wrapper .slick-slide{
+  color: #FFF;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 437px !important;
+  transform: scale(0.9) translateX(0%);
+  transition: all 500ms ease 0s;
+
+}
+  
+
+.wrapper .slick-slide > div {
+  margin: 0 10px;
+  
+}
+
+.wrapper .slick-list {
+  margin: 0 -10px;
+  height: 360px;
+  padding:0 20% 0 0 !important;
+}
+ .wrapper .sliduptextbx h4{font-size: 20px;}
+/* Active center slide (You can change anything here for cenetr slide)*/
+
+.wrapper .slick-current.slick-active{
+  transform: scale(1.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 90px;
+  margin-left: 75px;
+  transition: all 500ms ease 0s;
+}
+
+.wrapper .slick-next, .slick-prev{
+  z-index: 5;
+}
+.wrapper .slick-next{ 
+  left: 14%;
+  top: -68px;
+}
+.wrapper .slick-prev{
+  left:130px;
+}
+.wrapper .slick-prev, .slick-next{
+  top: -68px;
+  background:none;
+  color: #FFF;
+  opacity: 1;
+}
+.wrapper .coutslider{padding-left: 60px;display: inline-block;vertical-align: middle;}
+.wrapper .slick-next:before, .slick-prev:before{
+  color: #fff;
+  font-size: 26px;
+}
+.wrapper .slick-prev:before, .slick-next:before{opacity: 1;}
+.wrapper .slick-track{height: 360px ;width: 6160px; opacity: 1;}
+.wrapper .slidemnbx{position: relative;}
+.sliduptextbx{position:absolute;top: 0;padding: 20px 20px 20px 20px;}
+.sliduptextbx p{line-height: 18px;}
+.wrapper .slick-current.slick-active .sliduptextbx{padding: 10px 20px 20px 40px !important;}
+.wrapper .slick-current.slick-active .sliduptextbx p{font-size: 15px;}
+/* .slideimgbx{background: linear-gradient(
+  rgba(4, 3, 9, 0.74) 14.36%,
+  rgba(217, 217, 217, 0) 100%
+); display: inline-block;} */
+
+.slideimgbx img {
+  z-index: -1;
+  position: relative;
+}
+
+@media(max-width:1199px){
+  .wrapper .slick-current.slick-active{
+    transform:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:20px;
+    margin-left:0;
+  }
+  .wrapper .slick-slide{transform: none;height: auto;width: auto !important;}
+}
+@media(min-width:1199px) and (max-width:1400px){
+  .wrapper .slick-slide{
+    transform: scale(0.7);
+    padding: 10px;
+  height: auto;
+  width: auto !important;
+  }
+  .wrapper .slick-current.slick-active{transform: scale(0.9);}
+  .sliduptextbx{padding: 10px;}
+  .sliduptextbx h4{font-size: 16px;}
+}
+
+/*meet  our  partners*/
+.imd_parner a {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 20px 20px 0px 0px;
+  display: block;
+  margin-bottom: 20px;
+  border-bottom: solid 4px #FFFFFF;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.imd_parner a:hover {
+  border-bottom: solid 4px #00D4FF;
+}
+.owl-theme .owl-dots .owl-dot span {
+  background: #FFFFFF;
+  height: 10px;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #00D4FF;
+  border-radius: 20px;
+  width: 50px;
+  height: 10px;
+}
+.newroom_sec2{
+  background: linear-gradient(180deg, #000000 0%, #0A2034 29.67%, #000000 63.39%, #0A2034 90.06%);
+  padding: 50px 0;
+}
+.newroom_sec2 .slick-slide > div {
+  margin: 0 10px;
+}
+.newroom_sec2 .slick-list {
+  margin: 0 -10px;
+}
+.newroom_sec2 .slick-dots li{margin: 0 20px;}
+
+.newroom_sec2 .slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width:10px;
+    height: 10px;
+    border-radius: 50px;
+    content: '';
+    text-align:left;
+    opacity: 1;
+    background-color: #fff;
+    color:#fff;}
+.newroom_sec2 .slick-dots li.slick-active button:before
+{
+    opacity: 1;
+    background: #00D4FF;
+    border-radius: 20px;
+    width: 50px;
+    height: 10px;
+}
