@@ -127,49 +127,7 @@ export default function Footer() {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3">
-                        <div className="our_add_bar">
-                          <div className="our_call">
-                            <div className="img_call">
-                              <div className="icon_r">
-                                <img
-                                  decoding="async"
-                                  src={`../../call.png`}
-                                />
-                              </div>
-                              <p></p>
-                            </div>
-                            <div className="cont_gt">
-                              <span>Tel</span>
-                              <p></p>
-                              <p>
-                                <a href="tel:+61862623559">+61 8 6262 3559</a>
-                              </p>
-                              <p></p>
-                            </div>
-                          </div>
-                          <div className="our_call">
-                            <div className="img_call">
-                              <div className="icon_r">
-                                <img
-                                  decoding="async"
-                                  src={`../../call.png`}
-                                />
-                              </div>
-                              <p></p>
-                            </div>
-                            <div className="cont_gt">
-                              <span>Mob</span>
-                              <p></p>
-                              <p>
-                                <a href="tel:+61410881616">+61 410 881 616</a>
-                              </p>
-                              <p></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-3">
+                            <div className="col-lg-3 col-md-6 col-sm-12">
                         <div className="our_add_bar">
                           <div className="our_call">
                             <div className="img_call">
@@ -215,6 +173,50 @@ export default function Footer() {
                           </div>
                         </div>
                       </div>
+
+                            <div className="col-lg-3 col-md-6 col-sm-12">
+                        <div className="our_add_bar">
+                          <div className="our_call">
+                            <div className="img_call">
+                              <div className="icon_r">
+                                <img
+                                  decoding="async"
+                                  src={`../../call.png`}
+                                />
+                              </div>
+                              <p></p>
+                            </div>
+                            <div className="cont_gt">
+                              <span>Tel</span>
+                              <p></p>
+                              <p>
+                                <a href="tel:+61862623559">+61 8 6262 3559</a>
+                              </p>
+                              <p></p>
+                            </div>
+                          </div>
+                          <div className="our_call">
+                            <div className="img_call">
+                              <div className="icon_r">
+                                <img
+                                  decoding="async"
+                                  src={`../../call.png`}
+                                />
+                              </div>
+                              <p></p>
+                            </div>
+                            <div className="cont_gt">
+                              <span>Mob</span>
+                              <p></p>
+                              <p>
+                                <a href="tel:+61410881616">+61 410 881 616</a>
+                              </p>
+                              <p></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
                         </div>
                     </div>
 
@@ -229,14 +231,14 @@ export default function Footer() {
                         <div className="row">
                             <div className="col-md-7 col-lg-7 col-sm-12">
                                 <div className="our_copy">
-                                    <p>Copyright ©2022 SPACE. Powered By<a href="#"
-                                            target="_blank"> QL Tech </a></p>
+                                    <p>Copyright ©2022 SPACE. Powered By <Link to="" 
+                                            target="_blank"> QL Tech </Link></p>
                                 </div>
                             </div>
                             <div className="col-md-5 col-lg-5 col-sm-12">
-                                <div className="our_copy " style={{ textAlign: "center" }}>
-                                    <p>All Rights Reserved<a href="#" target="_blank">
-                                            Terms and Conditions Privacy Policy</a></p>
+                                <div className="our_copy hgbd " style={{ textAlign: "center" }}>
+                                    <p>All Rights Reserved <Link to=""  target="_blank">
+                                            Terms and Conditions Privacy Policy</Link></p>
                                 </div>
                             </div>
                         </div>

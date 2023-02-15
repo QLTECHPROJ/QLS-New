@@ -1646,7 +1646,7 @@ video#myVideo {
     width: 100%;
 }
 
-
+/* Suchi CSS */
 .expanded .solact_mn {
   background-color: #023558;
   color: #fff;
@@ -1682,6 +1682,32 @@ a.readmorebtn:hover {
 .btn_ery a:hover {
   color: #fff !important;
 }
+
+.our_copy p a {
+  text-decoration: none;
+}
+
+.our_add_bar .our_call {
+  margin-bottom: 0px !important;
+}
+
+.modal-content {
+  background: #0B0C10 !important;
+}
+
+/* For Slick Slider */
+
+.slick-slider-reverse .slick-slide {
+  transform: translateX(-100%);
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+}
+
+.slick-slider-reverse .slick-current {
+  transform: translateX(0);
+  opacity: 1;
+}
+
 
 /* amit sir date 8 feb */
 
@@ -1746,4 +1772,6 @@ a.readmorebtn:hover {
   background-size: cover;
   background-position: bottom right;
 }
+
+
 

@@ -127,6 +127,7 @@ function NewSlider() {
                   </h4>
                   <div dangerouslySetInnerHTML={{ __html: node.excerpt }} />
                   <div className="solact_mn">
+                  {/* <Link to={`../solutions#${node.id}`} className="readmorebtn" > */}
                       <Link to='../solutions' className="readmorebtn" >
                         Read More
                         <span>

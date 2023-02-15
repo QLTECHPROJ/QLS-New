@@ -1,7 +1,13 @@
-// import React from "react";
-// import { Link, StaticQuery, graphql } from "gatsby";
-// import "react-bootstrap";
-// import ReactModal from "react-modal";
+
+
+// New code
+
+import React, { useState } from "react";
+import styled, { keyframes } from "styled-components";
+import { Link, StaticQuery, graphql } from "gatsby";
+import ReactModal from "react-modal";
+import { Button } from "react-bootstrap";
+import ContactModal from "./ContactModal";
 
 // const customStyles = {
 //   content: {
@@ -11,150 +17,9 @@
 //     bottom: 'auto',
 //     marginRight: '-50%',
 //     transform: 'translate(-50%, -50%)',
+  
 //   },
 // };
-
-// export default function Header() {
-
-//   let subtitle;
-//   const [modalIsOpen, setIsOpen] = React.useState(false);
-
-//   function openModal() {
-//     setIsOpen(true);
-//   }
-
-//   function afterOpenModal() {
-//     // references are now sync'd and can be accessed.
-//     subtitle.style.color = '#f00';
-//   }
-
-//   function closeModal() {
-//     setIsOpen(false);
-//   }
-
-//   return (
-
-//             <StaticQuery
-//               query={graphql`
-//                 query {
-//                   wpMenu(id: { eq: "dGVybTozNQ==" }) {
-//                     id
-//                     menuItems {
-//                       nodes {
-//                         id
-//                         label
-//                       }
-//                     }
-//                   }
-
-//                 }
-//               `}
-//               render={(data) => (
-//                 <>
-//   <header id="myHeader">
-// 		<div className="main_header">
-// 			 <nav className="navbar navbar-expand-lg navbar-light" >
-// 			  <div className="container">
-
-// 			    <Link to={"/"} className="navbar-brand logo">
-// 			    	<img src="../logo.png" alt="logo" />
-// 			    </Link>
-// 			    <button className="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarTogglerDemo02" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-// 			      <span className="navbar-toggler-icon"></span>
-// 			    </button>
-// 			    <div className="collapse navbar-collapse justify-content-end header_l" id="navbarTogglerDemo02">
-// 			      <ul className="navbar-nav  mb-2 mb-lg-0">
-//                   {data &&
-//                     data.wpMenu &&
-//                     data.wpMenu.menuItems &&
-//                     data.wpMenu.menuItems.nodes.map((prop, i) => {
-//                       return (
-//                         <>
-//                         { (
-//                           <>
-//                           {(prop.label == 'Home') ? (
-//                             <li className="nav-item">
-//                               <Link to={"/"} className="nav-link" activeClassName="active">{prop.label}</Link>
-//                             </li>
-//                           ) : (
-//                             <li className="nav-item">
-//                               <Link to={"/"+prop.label.replace(/\s+/g, '_').replace("'", '').toLowerCase()} className="nav-link" activeClassName="active">{prop.label}</Link>
-//                             </li>
-//                           )}
-//                           </>
-//                         )}
-//                         </>
-
-//                     )
-//                     })}
-//                           </ul>
-
-//            </div>
-//            <div className="nav-item cntbutton" id="main">
-//                     <button
-//                       onClick={openModal}
-//                       className="btn btn-primary cnt cont_btn"
-//                     >
-//                       <span>Contact Us</span>
-//                     </button>
-
-//                     <ReactModal
-//                       isOpen={modalIsOpen}
-//                       onAfterOpen={afterOpenModal}
-//                       onRequestClose={closeModal}
-//                       style={customStyles}
-//                       contentLabel="Example Modal"
-//                     >
-//                       <div className="col-md-6">
-//                         <h2 ref={(_subtitle) => (subtitle = _subtitle)}>
-//                           Hello
-//                         </h2>
-//                         <button onClick={closeModal}>close</button>
-//                         <div className="form_get_touch">
-//                           <iframe
-//                             id="myIframe"
-//                             src="http://localhost/qlspace-new/contact/"
-//                             frameborder="0"
-//                           ></iframe>
-//                         </div>
-//                       </div>
-//                       {/* <div>I am a modal</div> */}
-//                     </ReactModal>
-//                   </div>
-
-//          </div>
-//        </nav>
-//      </div>
-//    </header>
-
-//                 </>
-
-//               )}
-
-//             />
-
-//   );
-// }
-
-// New code
-
-import React, { useState } from "react";
-import styled, { keyframes } from "styled-components";
-import { Link, StaticQuery, graphql } from "gatsby";
-import ReactModal from "react-modal";
-import { Button } from "react-bootstrap";
-
-const customStyles = {
-  content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(-50%, -50%)',
-  
-  },
-};
 const slideInLeft = keyframes`
   from {
     transform: translateX(-100%);
@@ -198,22 +63,19 @@ const MenuItem = styled.li`
 const Header = () => {
   const [open, setOpen] = useState(false);
 
-  let subtitle;
-   const [modalIsOpen, setIsOpen] = React.useState(false);
+  // let subtitle;
+  //  const [modalIsOpen, setIsOpen] = React.useState(false);
 
-   function openModal() {
-     //setIsOpen(true);
-     setIsOpen(!open);
-   }
-
-  //  function afterOpenModal() {
-      
-  //    subtitle.style.color = '#f00';
+  //  function openModal() {
+  //    //setIsOpen(true);
+  //    setIsOpen(!open);
   //  }
 
-   function closeModal() {
-     setIsOpen(false);
-   }
+ 
+
+  //  function closeModal() {
+  //    setIsOpen(false);
+  //  }
 
    
 
@@ -316,24 +178,17 @@ const Header = () => {
                     </a>
                 </div>
                 </div>
-
-                <div class="our_conts_btn">
+                                    <ContactModal />
+                {/* <div class="our_conts_btn">
                
                     <div class="btn_ery">
                     <Link to=""  onClick={openModal}>Contact Us</Link>
                     </div>
-                </div>
-                    {/* <button
-                       onClick={openModal}
-                       className="btn btn-primary cnt cont_btn"
-                     >
-                       <span>Contact Us</span>
-                     </button> */}
-                     
-                     {/* <Link onClick={openModal} className="btn btn-primary cnt cont_btn" role={Button}><span>Contact Us</span></Link> */}
-                     <ReactModal
+                </div> */}
+                    
+                     {/* <ReactModal
                        isOpen={modalIsOpen}
-                       //onAfterOpen={afterOpenModal}
+                       
                        onRequestClose={closeModal}
                        style={customStyles}
                        contentLabel="Example Modal"
@@ -361,21 +216,8 @@ const Header = () => {
     </div>
   </div>
 
-                       {/* <div className="col-md-6">
-                         <h2 ref={(_subtitle) => (subtitle = _subtitle)}>
-                           Hello
-                         </h2>
-                         <button onClick={closeModal}>close</button>
-                         <div className="form_get_touch">
-                           <iframe
-                             id="myIframe"
-                             src="http://localhost/qlspace-new/contact/"
-                             frameborder="0"
-                           ></iframe>
-                         </div>
-                       </div> */}
-                       {/* <div>I am a modal</div> */}
-                     </ReactModal>
+                       
+                     </ReactModal> */}
                     
                     
                   </div>

@@ -17,7 +17,7 @@ export default function Solutions() {
 
   return (
    
-    <Layout>
+   
         
         <StaticQuery
           query={graphql`
@@ -131,6 +131,6 @@ export default function Solutions() {
           
         />
        
-    </Layout>
+    
   )
 }

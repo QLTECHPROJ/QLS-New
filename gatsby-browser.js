@@ -9,5 +9,5 @@
 // import "./src/font/style.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 
-
+import $ from 'jquery'
 //import "font-awesome/css/fontawesome.min.css"

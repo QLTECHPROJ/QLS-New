@@ -26,6 +26,7 @@ const IndexPage = ({ data }) => {
       offset: 0, // The distance in pixels from the element before triggering the animation
       mobile: false, // Enable or disable animation on mobile devices
       live: true, // Enable or disable the live mode (the animation will be triggered when the element appears in the viewport)
+      duration: '1s',
     });
     wow.init();
   }, []);
@@ -130,20 +131,21 @@ const IndexPage = ({ data }) => {
                           
                         </div>
                         </div>
-                        <div className="wow animate__fadeInUp" >           
+                        <div className="wow animate__fadeInUp" >                  
 						<div class="col-md-12">
 							<div class="bner_sec_text_d"  >
-              
+                 
 								<div class="bner_main_tx">
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderHeading }} />
                 
 								</div>
+                
 							</div>
 						</div>
             </div>
 						<div class="col-md-12">
 							<div class="bnersec_txt2 bn_cvb">
-              <div className="wow animate__fadeInUp" data-wow-delay="1s">
+              <div className="wow animate__fadeInUp" >
 								<div class="p_txt">
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderSubheading }} />
 								</div>
