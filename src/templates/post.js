@@ -21,25 +21,7 @@ export default ({ data }) => {
        
         
         
-        {/* <p> By: {post.title} </p> */}
         
-        {/* <p> On: {post.date} </p>
-        <h4>ACF FIELDS</h4>
-        <p>{post.socialGroup.facebook}</p>
-        <div className="col-md-4">
-         
-        <img src={post.socialGroup.image.sourceUrl} className="img-thumbnail"/>
-        
-        <p>{post.socialGroup.repeater.map(item => (
-                    <React.Fragment>
-                        <p>
-                            {item.texts}
-                            {item.detail}
-                        </p>
-                       
-                    </React.Fragment>
-                ))}</p>
-        </div> */}
         </div>
         </div>
       </div>

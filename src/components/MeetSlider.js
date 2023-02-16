@@ -3,13 +3,15 @@ import Slider from 'react-slick';
 import React, { useState, useEffect } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Meetimg from '../image/parners1.png'
+
 import WOW from 'wowjs';
 import "wowjs/css/libs/animate.css"
 import { Link, graphql,StaticQuery } from 'gatsby';
 export default function MeetSlider() {
   useEffect(() => {
+   
     new WOW.WOW().init()
+    
   }, [])
   const [MeetSettings, MeetSliderSettings] = useState({
     slidesToShow: 4,
