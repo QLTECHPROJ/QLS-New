@@ -1,6 +1,5 @@
-.slid{padding: 60px 0;background: linear-gradient(#000000, #0A2034);}
-.slid > div{overflow: hidden;}
-.wrapper{position: relative;}
+
+.wrapper{position: relative; overflow: hidden;}
 .sohome_toptxt h1{color: #00D4FF;font-weight: 700;font-size: 45px;line-height: 50px;}
 .sohome_toptxt p{color: #fff;}
 .wrapper p.coutslider{color: #fff;}
@@ -137,7 +136,7 @@
 .slick-list, .slick-slider {
   display: block;
   position: relative;
-  overflow: hidden;
+  
 }
 
 /*meet  our  partners*/
