@@ -29,14 +29,13 @@ const ContactModal = () => {
         </Modal.Header>
 
         <Modal.Body>
-          <div className="fomr_drf">
+          
           <iframe
                              id="myIframe"
                              src="https://steamlinedesign.com/suchi/qlspacenew/contact/"
-                             frameborder="0" width="400"
-                             height="400"
+                             scrolling="no" style={{ minHeight: '360px' }}
                            ></iframe>
-          </div>
+          
         </Modal.Body>
       </Modal>
     </>

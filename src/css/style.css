@@ -1708,6 +1708,35 @@ a.readmorebtn:hover {
   opacity: 1;
 }
 
+/* Modal Content CSS 16 feb */
+/* .fomr_drf iframe#myIframe {
+  width: 100% !important;
+} */
+
+/* .mb-3.gth.ftr_from3 input {
+  width: 100% !important;
+} */
+.modal iframe#myIframe {
+  width: 100% !important;
+}
+
+.modal-body iframe#myIframe {
+  width: 100% !important;
+}
+
+iframe#myIframe {
+  width: 100% !important;
+}
+
+
+/* .gth input{
+	width: 100% !important;
+} */
+
+
+.mb-3.gth.ftr_from3 input.wpcf7-form-control.wpcf7-text.wpcf7-email.wpcf7-validates-as-required.wpcf7-validates-as-email {
+  width: 100% !important;
+}
 
 /* amit sir date 8 feb */
 

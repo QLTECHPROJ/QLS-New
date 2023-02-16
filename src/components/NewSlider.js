@@ -32,7 +32,7 @@ function NewSlider() {
     afterChange: currentSlide => setSlideIndex(currentSlide),
     responsive: [
       {
-        breakpoint: 1400,
+        breakpoint: 1024,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -95,11 +95,11 @@ function NewSlider() {
             render={data => (
               
 <>
-<section className='slid'>
+<section className='solution_slider pt  pb'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12 col-md-12 col-sm-12'>
-              <div className='sohome_toptxt'>
+              <div className='cret_prt_toptxt'>
                 <h1>{data.wpPage.homeSolution.solutionHeading}</h1>
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSolution.shortDetail }} />
               </div>
