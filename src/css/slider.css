@@ -125,12 +125,12 @@
 }
 
 .wrapper .slick-slide{display: flex !important;}
-.slick-prev:before, .wrapper .slick-next:before {
+/* .slick-prev:before, .wrapper .slick-next:before {
   color: #fff;
   font-size: 26px !important;
   opacity: 1;
-}
-.solution_slider{height: auto;}
+} */
+.solution_slider{height: auto !important;}
 
 .slick-list, .slick-slider {
   display: block;
