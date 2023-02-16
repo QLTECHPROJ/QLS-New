@@ -125,6 +125,7 @@ const IndexPage = ({ data }) => {
 							<div class="bner_sec_text_d"  >
                  
 								<div class="bner_main_tx">
+									asasasasas
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderHeading }} />
                 
 								</div>
