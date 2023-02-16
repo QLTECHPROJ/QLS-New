@@ -179,45 +179,7 @@ const Header = () => {
                 </div>
                 </div>
                                     <ContactModal />
-                {/* <div class="our_conts_btn">
-               
-                    <div class="btn_ery">
-                    <Link to=""  onClick={openModal}>Contact Us</Link>
-                    </div>
-                </div> */}
-                    
-                     {/* <ReactModal
-                       isOpen={modalIsOpen}
-                       
-                       onRequestClose={closeModal}
-                       style={customStyles}
-                       contentLabel="Example Modal"
-                     >
-
-<div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content" style={{backgroundColor:"#0B0C10"}}>
-      <div class="modal-header">
-        <button type="button" class="btn-close" onClick={closeModal} aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-           <div class="header_Gf text-center">
-           <h2 style={{ color: "#00D4FF" }}>Get in Touch</h2>
-               <p>Fill up the form our team will get back to you within 24 Hours</p>
-           </div>
-           <div class="fomr_drf">
-           <iframe
-                             id="myIframe"
-                             src="http://steamlinedesign.com/suchi/qlspacenew/contact/"
-                             frameborder="0"
-                           ></iframe>
-           </div>
-      </div>
-    
-    </div>
-  </div>
-
-                       
-                     </ReactModal> */}
+                
                     
                     
                   </div>

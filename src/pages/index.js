@@ -4,8 +4,11 @@ import Layout from "../components/Layout"
 //import "bootstrap/dist/css/bootstrap.css";
 import "react-bootstrap" ;
 import { useState, useEffect } from "react";
+
+
 import ArrowRightIcon from "../components/ArrowRightIcon";
 import MeetSlider from "../components/MeetSlider";
+
 import WOW from 'wowjs';
 import "wowjs/css/libs/animate.css"
 import 'animate.css';
@@ -16,7 +19,6 @@ import NewSlider from "../components/NewSlider";
 
 const IndexPage = ({ data }) => {
   useEffect(() => {
-    
     const wow = new WOW.WOW({
       boxClass: 'wow', // The class name for each section container
       animateClass: 'animate__animated', // The class name for the animated element
@@ -26,10 +28,30 @@ const IndexPage = ({ data }) => {
       duration: '1s',
     });
     wow.init();
-  
   }, []);
 
+  // const [visible, setVisible] = useState(false);
+  // const [visibles, setVisibles] = useState(false);
   
+  // useEffect(() => {
+  //   const element = document.querySelector(".bner_sec_text_d");
+  //   element.addEventListener("animationend", () => {
+  //     setVisible(true);
+  
+  //     setTimeout(() => {
+  //       const elements = document.querySelector(".bnersec_txt2");
+  //       elements.addEventListener("animationend", () => {
+  //         setVisibles(true);
+  //       });
+  //     }, 500); // delay the second animation by 500ms
+  //   });
+  
+  //   return () => {
+  //     element.removeEventListener("animationend", () => {
+  //       setVisible(true);
+  //     });
+  //   };
+  // }, []);
   return (
     <Layout>
       <main>
@@ -93,7 +115,7 @@ const IndexPage = ({ data }) => {
               
               <>
 
-             
+              {/* <MyComponent /> */}
 
 <section class="banner_sec" style={{ backgroundImage: `url(../../bnerimg.png)` }}>
 			
@@ -154,7 +176,6 @@ const IndexPage = ({ data }) => {
 
     
 
-                
              <NewSlider />
     
         
