@@ -26,7 +26,7 @@ export default function MeetSlider() {
     
     responsive: [
       {
-        breakpoint: 1400,
+        breakpoint: 1199,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
