@@ -13,7 +13,7 @@ export default function MeetSlider() {
   }, [])
   const [MeetSettings, MeetSliderSettings] = useState({
     slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToScroll: 1,
     //centerMode: true,
     arrows: false,
     dots:true,
@@ -29,7 +29,7 @@ export default function MeetSlider() {
         breakpoint: 1199,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           infinite: true,
         }
       },
@@ -37,7 +37,7 @@ export default function MeetSlider() {
         breakpoint: 991,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToScroll: 1,
           
         }
       },
@@ -45,7 +45,7 @@ export default function MeetSlider() {
         breakpoint: 480,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToScroll: 1
         }
       }
     ]
