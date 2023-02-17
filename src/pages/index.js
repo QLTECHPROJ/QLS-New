@@ -11,7 +11,7 @@ import MeetSlider from "../components/MeetSlider";
 
 
 import ReactWOW from 'react-wow'
-import 'animate.css';
+
 import Calendar from "../components/Calendar";
 import Adminlogo from "../components/Adminlogo";
 import NewSlider from "../components/NewSlider";
