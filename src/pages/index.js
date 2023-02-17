@@ -156,7 +156,7 @@ const IndexPage = ({ data }) => {
 						<div class="about_sec_text fvg">
             
 							<h1><strong>{data.wpPage.homeAboutSection.heading}</strong> us</h1>
-							<p dangerouslySetInnerHTML={{ __html: data.wpPage.homeAboutSection.shortDescription }} />
+							<div dangerouslySetInnerHTML={{ __html: data.wpPage.homeAboutSection.shortDescription }} />
               
 						</div>
 					</div>
