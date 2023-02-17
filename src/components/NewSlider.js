@@ -21,7 +21,7 @@ function NewSlider() {
   const [sliderSettings, setSliderSettings] = useState({
     slidesToShow: 4,
     slidesToScroll: 1,
-    //centerMode: true,
+    centerMode: true,
     arrows: true,
     dots: false,
     speed: 200,
