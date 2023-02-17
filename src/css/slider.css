@@ -193,3 +193,9 @@
     width: 50px;
     height: 10px;
 }
+
+
+.container.slidedetail {
+  max-width: 1235px;
+  margin-right: 0;
+}
