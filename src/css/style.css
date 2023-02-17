@@ -1802,5 +1802,14 @@ iframe#myIframe {
   background-position: bottom right;
 }
 
+/* New CSS Edit By Sandeep Sir */
+.about_sec_text div p:last-child {
+    margin: 0;
+    padding: 0;
+}
+
+.about_sec_text div p {
+    margin-bottom: 0;
+}
 
 
