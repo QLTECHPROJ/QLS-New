@@ -108,47 +108,40 @@ function NewSlider() {
         </div>
         <div className='wrapper'>
           <div className='container'>
-            <div class="row">
-                   <div className='counslidbx'>
-                   <p className='coutslider'>{slideIndex + 1}/{data.allWpSolutions.totalCount}</p>
-
-               <div class="slider_main_top">
-                  <Slider {...sliderSettings}>
-                {data.allWpSolutions.edges.map(({ node },i) =>(
-                                 
-                                 <>
-                  <div className='slidebx'>
-                    <div className='slidemnbx'>
-                      <div className='slideimgbx'>
-                        <img src={node.solutionSection.image.sourceUrl} className='img-fluid' />
-                      </div>
-                      <div className='sliduptextbx'>
-                        <h4>
-                        {node.title}
-                        </h4>
-                        <div dangerouslySetInnerHTML={{ __html: node.excerpt }} />
-                        <div className="solact_mn">
-                        {/ <Link to={`../solutions#${node.id}`} className="readmorebtn" > /}
-                            <Link to='../solutions' className="readmorebtn" >
-                              Read More
-                              <span>
-                                <ArrowRightIcon />
-                              </span>
-                            </Link>
-                          </div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  </>
-                      ))}
-                </Slider>
-               </div>
-
-            </div>
+            <div className='counslidbx'>
+              <p className='coutslider'>{slideIndex + 1}/{data.allWpSolutions.totalCount}</p>
             </div>
           </div>
-         
+          <Slider {...sliderSettings}>
+          {data.allWpSolutions.edges.map(({ node },i) =>(
+                           
+                           <>
+            <div className='slidebx'>
+              <div className='slidemnbx'>
+                <div className='slideimgbx'>
+                  <img src={node.solutionSection.image.sourceUrl} className='img-fluid' />
+                </div>
+                <div className='sliduptextbx'>
+                  <h4>
+                  {node.title}
+                  </h4>
+                  <div dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                  <div className="solact_mn">
+                  {/ <Link to={`../solutions#${node.id}`} className="readmorebtn" > /}
+                      <Link to='../solutions' className="readmorebtn" >
+                        Read More
+                        <span>
+                          <ArrowRightIcon />
+                        </span>
+                      </Link>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+            </>
+        				))}
+          </Slider>
 
 
         </div>
@@ -167,3 +160,4 @@ function NewSlider() {
 }
 
 export default NewSlider;
+
