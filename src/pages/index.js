@@ -8,10 +8,8 @@ import { useState, useEffect } from "react";
 
 import ArrowRightIcon from "../components/ArrowRightIcon";
 import MeetSlider from "../components/MeetSlider";
-
-
 import ReactWOW from 'react-wow'
-
+import 'animate.css';
 import Calendar from "../components/Calendar";
 import Adminlogo from "../components/Adminlogo";
 import NewSlider from "../components/NewSlider";
@@ -120,10 +118,11 @@ const IndexPage = ({ data }) => {
                           
                         </div>
                         </ReactWOW>
-                         <ReactWOW delay='0.4s' animation='fadeInUp'>            
+                        <ReactWOW delay='0.4s' animation='fadeInUp'>                          
 						<div class="col-md-12">
+            
 							<div class="bner_sec_text_d"  >
-                 
+              
 								<div class="bner_main_tx">
 									
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderHeading }} />
@@ -131,11 +130,12 @@ const IndexPage = ({ data }) => {
 								</div>
                 
 							</div>
+              
 						</div>
             </ReactWOW>
 						<div class="col-md-12">
 							<div class="bnersec_txt2 bn_cvb">
-              <ReactWOW delay='0.8s' animation='fadeInUp'> 
+              <ReactWOW delay='2s' animation='fadeInUp'> 
 								<div class="p_txt">
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderSubheading }} />
 								</div>

@@ -13,7 +13,7 @@ import { withPrefix, Link } from "gatsby"
 //import "../css/all.min.css";
 //import "../css/font-awesome.min.css";
 //import "../css/owl.carousel.min.css";
-import "../css/owl.theme.default.min.css";
+//import "../css/owl.theme.default.min.css";
 import  "../css/slider.css";
 import  "../css/style.css";
 import  "../css/responsive.css";
