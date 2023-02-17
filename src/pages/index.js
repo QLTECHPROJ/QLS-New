@@ -120,7 +120,7 @@ const IndexPage = ({ data }) => {
                           
                         </div>
                         </ReactWOW>
-                         <ReactWOW  animation='fadeInUp'>               
+                         <ReactWOW delay='0.4s' animation='fadeInUp'>            
 						<div class="col-md-12">
 							<div class="bner_sec_text_d"  >
                  
@@ -135,7 +135,7 @@ const IndexPage = ({ data }) => {
             </ReactWOW>
 						<div class="col-md-12">
 							<div class="bnersec_txt2 bn_cvb">
-              <ReactWOW  animation='fadeInUp'>
+              <ReactWOW delay='0.8s' animation='fadeInUp'> 
 								<div class="p_txt">
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderSubheading }} />
 								</div>
