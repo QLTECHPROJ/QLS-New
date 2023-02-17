@@ -107,12 +107,16 @@ function NewSlider() {
           </div>
         </div>
         <div className='wrapper'>
-          <div className='container'>
+          <div className='container countindex'>
             <div class="row">
                    <div className='counslidbx'>
                    <p className='coutslider'>{slideIndex + 1}/{data.allWpSolutions.totalCount}</p>
-
-               <div class="slider_main_top">
+              </div>
+              </div>
+              </div>
+              <div className='container slidedetail'>
+                <div className='row'>
+                <div class="slider_main_top">
                   <Slider {...sliderSettings}>
                 {data.allWpSolutions.edges.map(({ node },i) =>(
                                  
@@ -144,10 +148,11 @@ function NewSlider() {
                       ))}
                 </Slider>
                </div>
+                </div>
+              </div>
+               
 
-            </div>
-            </div>
-          </div>
+           
          
 
 
