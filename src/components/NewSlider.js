@@ -19,9 +19,9 @@ function NewSlider() {
 //   };
   const [slideIndex, setSlideIndex] = useState(0);
   const [sliderSettings, setSliderSettings] = useState({
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    centerMode: true,
+    centerMode: false,
     arrows: true,
     dots: false,
     speed: 200,
