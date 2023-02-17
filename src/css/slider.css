@@ -139,6 +139,8 @@
   
 }
 
+.slick-next:before, .slick-prev:before{font-size:26px;opacity:1;}
+
 /*meet  our  partners*/
 .imd_parner a {
   background: #FFFFFF;
