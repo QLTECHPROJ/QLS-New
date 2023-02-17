@@ -44,6 +44,7 @@ export default function about() {
               
 <>
 <main>
+
 		<section className="breadcumb pt pb" style={{ backgroundImage: `url(../../breadcumb.png)` }}>
 	    <div className="container">
 	    	<div className="row">
@@ -58,7 +59,8 @@ export default function about() {
 	    	</div>
 	    </div>
 	</section>
-    <section className="about_us_sec pb_100 ">
+
+    {/* <section className="about_us_sec pb_100 ">
 			<div className="container">
 				<div className="row">
 					<div className="col-md-6">
@@ -72,6 +74,25 @@ export default function about() {
 						</div>
 					</div>
 
+				</div>
+			</div>
+		</section> */}
+
+<section className="about_us_sec pb_100 " style={{ backgroundImage: `url(../../Banne.png)` }}>
+			<div className="container">
+				<div className="row align-items-center">
+          {/* <div className="wow slideInLeft"> */}
+          {/* <ReactWOW animation="slideInLeft" duration="2s"> */}
+					<div className="col-md-8 " >
+						<div className="about_sec_text fvg">
+            
+							{/* <h1><strong>{data.wpPage.title}</strong></h1> */}
+							<div dangerouslySetInnerHTML={{ __html: data.wpPage.about.description }} />
+              
+						</div>
+					</div>
+          {/* </ReactWOW> */}
+					{/* </div> */}
 				</div>
 			</div>
 		</section>
