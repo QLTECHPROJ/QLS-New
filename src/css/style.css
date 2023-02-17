@@ -1111,7 +1111,7 @@ nav ul li.selected ul li a{
 }
 .solution_slider{
   position: relative;
-  background-image: url(../image/shape.png); 
+/*   background-image: url(../image/shape.png);  */
   background-position: center top; 
   background-repeat: no-repeat;
   height: auto !important;
