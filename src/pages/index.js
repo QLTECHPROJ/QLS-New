@@ -92,7 +92,7 @@ const IndexPage = ({ data }) => {
 			<div className="our_banner_top">
 				<div className="container">
 					<div className="row justify-content-center">
-          <ReactWOW  animation='fadeInUp' duration="2s">
+          <ReactWOW  animation='fadeInUp' duration="1s" delay='0.5s'>
                         <div className="col-md-12">
                             <div className="earth_new_mio" >
                                 <img src="../../earth_wrap.png" />
@@ -100,24 +100,24 @@ const IndexPage = ({ data }) => {
                           
                         </div>
                         </ReactWOW>
-                        <ReactWOW delay='2s' animation='fadeInUp'>                          
+                                                 
 						<div className="col-md-12">
             
 							<div className="bner_sec_text_d"  >
-              
+              <ReactWOW delay='1.5s' animation='fadeInUp' duration='1s'> 
 								<div className="bner_main_tx">
 									
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderHeading }} />
                 
 								</div>
-                
+                </ReactWOW>
 							</div>
               
 						</div>
-            </ReactWOW>
+            
 						<div className="col-md-12">
 							<div className="bnersec_txt2 bn_cvb">
-              <ReactWOW delay='5s' animation='fadeInUp'> 
+              <ReactWOW delay='2.5s' animation='fadeInUp' duration='1s'> 
 								<div className="p_txt">
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderSubheading }} />
 								</div>
@@ -133,7 +133,8 @@ const IndexPage = ({ data }) => {
     <section className="about_us_sec pb_100 " style={{ backgroundImage: `url(../../Banne.png)` }}>
 			<div className="container">
 				<div className="row align-items-center">
-          <div className="wow slideInLeft">
+          {/* <div className="wow slideInLeft"> */}
+          <ReactWOW animation="slideInLeft" duration="2s">
 					<div className="col-md-8 " >
 						<div className="about_sec_text fvg">
             
@@ -142,7 +143,8 @@ const IndexPage = ({ data }) => {
               
 						</div>
 					</div>
-					</div>
+          </ReactWOW>
+					{/* </div> */}
 				</div>
 			</div>
 		</section>

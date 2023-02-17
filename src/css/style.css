@@ -1929,3 +1929,18 @@ button.slick-arrow.slick-next {
    transition: all 500ms ease 0s;
  
  }
+
+ .container.slidedetail .slider_main_top .slick-slider.slick-initialized button.slick-arrow.slick-prev {
+   position: absolute;
+   left: 0;
+}
+
+.container.slidedetail .slider_main_top .slick-slider.slick-initialized button.slick-arrow.slick-next {
+   left: 95px;
+}
+
+.solution_slider .wrapper .counslidbx p.coutslider {
+    /* left: 10px; 
+    position: absolute;  */
+   margin-left: 55px;
+}
