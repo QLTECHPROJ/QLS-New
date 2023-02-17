@@ -6,8 +6,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ArrowRightIcon from "./ArrowRightIcon";
 //import 'bootstrap/dist/css/bootstrap.min.css';
-import WOW from 'wowjs';
-import "wowjs/css/libs/animate.css"
+// import WOW from 'wowjs';
+// import "wowjs/css/libs/animate.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
