@@ -1110,12 +1110,21 @@ nav ul li.selected ul li a{
    z-index: 1000;
 }
 .solution_slider{
+<<<<<<< HEAD
  position: relative;
 /*   background-image: url(../image/shape.png);  */
  background-position: center top; 
  background-repeat: no-repeat;
  height: auto !important;
  background-size: contain
+=======
+  position: relative;
+/*   background-image: url(../image/shape.png);  */
+  background-position: center top; 
+  background-repeat: no-repeat;
+  height: auto !important;
+  background-size: contain
+>>>>>>> 595b82e060db0d1c62016b736d61aa7763880f6d
 }
 
 
@@ -1856,12 +1865,66 @@ button.slick-arrow.slick-next {
    display: block;
 }
 
+/* New CSS Edit By Sandeep Sir */
+.about_sec_text div p:last-child {
+    margin: 0;
+    padding: 0;
+}
+
+.about_sec_text div p {
+    margin-bottom: 0;
+}
+
+.solution_slider .wrapper {
+    position: relative;
+    display: block;
+}
+
+.solution_slider .wrapper .counslidbx {
+    padding: 0 !important;
+}
+
+.solution_slider .wrapper .counslidbx p.coutslider {
+    padding: 0;
+    letter-spacing: 10px;
+    margin-bottom: 0 !important;
+}
+
+.solution_slider .wrapper .container {
+    padding: 0 !important;
+ }
+
+.slick-prev:before, .wrapper .slick-next:before {
+    color: #fff;
+    font-size: 20px;
+    opacity: 1;
+}
+.wrapper .slick-prev {
+    position: absolute;
+    top: -13px;
+    left: 75px;
+}
+
+button.slick-arrow.slick-next {
+    position: absolute;
+    top: -13px;
+    left: 160px;
+    height: 20px;
+    width: 20px;
+    opacity: 1;
+}
+
+.solution_slider .wrapper {
+    position: relative;
+    display: block;
+}
 
 .solution_slider .wrapper .counslidbx {
    padding: 0 !important;
    margin: 0;
 }
 
+<<<<<<< HEAD
 .solution_slider .wrapper .counslidbx p.coutslider {
    padding: 0;
    letter-spacing: 10px;
@@ -1871,10 +1934,27 @@ button.slick-arrow.slick-next {
 .solution_slider .wrapper .container {
    padding: 0 !important;
    margin: 0 auto !important;
+=======
+.solution_slider .wrapper .counslidbx {
+    padding: 0 !important;
+    margin: 0;
+}
+
+.solution_slider .wrapper .counslidbx p.coutslider {
+    padding: 0;
+    letter-spacing: 10px;
+    margin-bottom: 0 !important;
+}
+
+.solution_slider .wrapper .container {
+    padding: 0 !important;
+    margin: 0 auto !important;
+>>>>>>> 595b82e060db0d1c62016b736d61aa7763880f6d
 }
 
 
 .wrapper .slick-prev {
+<<<<<<< HEAD
    position: absolute;
    top: -13px;
    left: 75px;
@@ -1888,3 +1968,19 @@ button.slick-arrow.slick-next {
    width: 20px;
    opacity: 1;
 }
+=======
+    position: absolute;
+    top: -13px;
+    left: 75px;
+}
+
+button.slick-arrow.slick-next {
+    position: absolute;
+    top: -13px;
+    left: 160px;
+    height: 20px;
+    width: 20px;
+    opacity: 1;
+}
+
+>>>>>>> 595b82e060db0d1c62016b736d61aa7763880f6d

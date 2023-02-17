@@ -9,26 +9,16 @@ import { useState, useEffect } from "react";
 import ArrowRightIcon from "../components/ArrowRightIcon";
 import MeetSlider from "../components/MeetSlider";
 
-import WOW from 'wowjs';
-import "wowjs/css/libs/animate.css"
-import 'animate.css';
+
+import ReactWOW from 'react-wow'
+
 import Calendar from "../components/Calendar";
 import Adminlogo from "../components/Adminlogo";
 import NewSlider from "../components/NewSlider";
 
 
 const IndexPage = ({ data }) => {
-  useEffect(() => {
-    const wow = new WOW.WOW({
-      boxClass: 'wow', // The class name for each section container
-      animateClass: 'animate__animated', // The class name for the animated element
-      offset: 0, // The distance in pixels from the element before triggering the animation
-      mobile: false, // Enable or disable animation on mobile devices
-      live: true, // Enable or disable the live mode (the animation will be triggered when the element appears in the viewport)
-      duration: '1s',
-    });
-    wow.init();
-  }, []);
+ 
 
   // const [visible, setVisible] = useState(false);
   // const [visibles, setVisibles] = useState(false);
@@ -122,33 +112,34 @@ const IndexPage = ({ data }) => {
 			<div class="our_banner_top">
 				<div class="container">
 					<div class="row justify-content-center">
-          <div className="wow animate__fadeInUp">
+          <ReactWOW  animation='fadeInUp'>
                         <div class="col-md-12">
                             <div class="earth_new_mio" >
                                 <img src="../../earth_wrap.png" />
                             </div>
                           
                         </div>
-                        </div>
-                        <div className="wow animate__fadeInUp" >                  
+                        </ReactWOW>
+                         <ReactWOW  animation='fadeInUp'>               
 						<div class="col-md-12">
 							<div class="bner_sec_text_d"  >
                  
 								<div class="bner_main_tx">
+									
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderHeading }} />
                 
 								</div>
                 
 							</div>
 						</div>
-            </div>
+            </ReactWOW>
 						<div class="col-md-12">
 							<div class="bnersec_txt2 bn_cvb">
-              <div className="wow animate__fadeInUp" >
+              <ReactWOW  animation='fadeInUp'>
 								<div class="p_txt">
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderSubheading }} />
 								</div>
-                </div>
+               </ReactWOW>
 							</div>
 						</div>
                      
@@ -165,7 +156,7 @@ const IndexPage = ({ data }) => {
 						<div class="about_sec_text fvg">
             
 							<h1><strong>{data.wpPage.homeAboutSection.heading}</strong> us</h1>
-							<p dangerouslySetInnerHTML={{ __html: data.wpPage.homeAboutSection.shortDescription }} />
+							<div dangerouslySetInnerHTML={{ __html: data.wpPage.homeAboutSection.shortDescription }} />
               
 						</div>
 					</div>
