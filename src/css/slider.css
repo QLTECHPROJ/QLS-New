@@ -4,17 +4,7 @@
 .sohome_toptxt p{color: #fff;}
 .wrapper p.coutslider{color: #fff;}
 .counslidbx{margin: 40px 0;}
-.wrapper .slick-slide{
-  color: #FFF;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 437px !important;
-  transform: scale(0.9) translateX(0%);
-  transition: all 500ms ease 0s;
 
-}
   
 
 .wrapper .slick-slide > div {
