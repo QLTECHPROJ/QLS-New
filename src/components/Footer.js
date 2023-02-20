@@ -137,18 +137,18 @@ export default function Footer() {
                                   src={`../../msg.png`}
                                 />
                               </div>
-                              <p></p>
+                              
                             </div>
                             <div className="cont_gt">
                               <span>Mail</span>
-                              <p></p>
+                              
                               <p>
                                 <a href="mailto:info@qlspace.com.au">
                                   {" "}
                                   info@qlspace.com.au{" "}
                                 </a>
                               </p>
-                              <p></p>
+                              
                             </div>
                           </div>
                           <div className="our_call">
@@ -159,16 +159,16 @@ export default function Footer() {
                                   src={`../../location.png`}
                                 />
                               </div>
-                              <p></p>
+                             
                             </div>
                             <div className="cont_gt">
                               <span>Address</span>
-                              <p></p>
+                              
                               <p>
                                 45 St Georges Terrace,
                                 <br /> Ground Floor, Perth, WA, 6000
                               </p>
-                              <p></p>
+                              
                             </div>
                           </div>
                         </div>
@@ -184,15 +184,15 @@ export default function Footer() {
                                   src={`../../call.png`}
                                 />
                               </div>
-                              <p></p>
+                              
                             </div>
                             <div className="cont_gt">
                               <span>Tel</span>
-                              <p></p>
+                              
                               <p>
                                 <a href="tel:+61862623559">+61 8 6262 3559</a>
                               </p>
-                              <p></p>
+                              
                             </div>
                           </div>
                           <div className="our_call">
@@ -203,15 +203,15 @@ export default function Footer() {
                                   src={`../../call.png`}
                                 />
                               </div>
-                              <p></p>
+                             
                             </div>
                             <div className="cont_gt">
                               <span>Mob</span>
-                              <p></p>
+                              
                               <p>
                                 <a href="tel:+61410881616">+61 410 881 616</a>
                               </p>
-                              <p></p>
+                              
                             </div>
                           </div>
                         </div>
