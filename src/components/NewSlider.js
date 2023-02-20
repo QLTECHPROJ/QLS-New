@@ -114,7 +114,7 @@ function NewSlider() {
               </div> */}
               </div>
               </div>
-              <div className='container slidedetail'>
+              <div className='slidedetail'>
                 <div className='row'>
                 <div className='counslidbx'>
                    <p className='coutslider'>{slideIndex + 1}/{data.allWpSolutions.totalCount}</p>
@@ -124,7 +124,34 @@ function NewSlider() {
                 {data.allWpSolutions.edges.map(({ node },i) =>(
                                  
                                  <>
-                  <div className='slidebx'>
+                    {(i==0) ? (
+<>
+<div className='slidebx first_slide'>
+                    <div className='slidemnbx '>
+                      <div className='slideimgbx'>
+                        <img src={node.solutionSection.image.sourceUrl} className='img-fluid' />
+                      </div>
+                      <div className='sliduptextbx'>
+                        <h4>
+                        {node.title}
+                        </h4>
+                        <div dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                        <div className="solact_mn">
+                        {/* <Link to={`../solutions#${node.id}`} className="readmorebtn" >  */}
+                            <Link to='../solutions' className="readmorebtn" >
+                              Read More
+                              <span>
+                                <ArrowRightIcon />
+                              </span>
+                            </Link>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+</>
+) : (
+<>
+<div className='slidebx'>
                     <div className='slidemnbx'>
                       <div className='slideimgbx'>
                         <img src={node.solutionSection.image.sourceUrl} className='img-fluid' />
@@ -146,6 +173,10 @@ function NewSlider() {
                       </div>
                     </div>
                   </div>
+</>
+)}
+
+                  
                   
                   </>
                       ))}
