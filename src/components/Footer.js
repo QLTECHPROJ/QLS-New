@@ -5,6 +5,9 @@ import  "../css/responsive.css";
 import LinkedInIcon from "./LinkedInIcon";
 import FacebookIcon from "./FacebookIcon ";
 import YoutubeIcon  from "./YoutubeIcon ";
+import Twitter from "./Twitter";
+import Instgram from "./Instgram";
+
 export default function Footer() {
   return (
     <>
@@ -77,7 +80,31 @@ export default function Footer() {
                                 >
                                   <span>
                                     
+                                    <Twitter />
+                                    <br />
+                                  </span>
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="https://www.youtube.com/channel/UC6xhk9nI6VxQ0UJpLjDmKvA/videos"
+                                  
+                                  target="_blank"
+                                >
+                                  <span>
+                                    
                                     <YoutubeIcon />
+                                    <br />
+                                  </span>
+                                </Link>
+                              </li>
+                              <li>
+                                <Link to="https://www.youtube.com/channel/UC6xhk9nI6VxQ0UJpLjDmKvA/videos"
+                                  
+                                  target="_blank"
+                                >
+                                  <span>
+                                    
+                                    <Instgram />
                                     <br />
                                   </span>
                                 </Link>

@@ -1,7 +1,8 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faYoutube } from "@fortawesome/free-brands-svg-icons"
-
+import { faTwitter } from "@fortawesome/free-brands-svg-icons"
+import { faInstagram } from "@fortawesome/free-brands-svg-icons"
 const YoutubeIcon = () => {
   return <FontAwesomeIcon icon={faYoutube} />
 }
