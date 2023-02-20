@@ -15,10 +15,10 @@ export default function MeetSlider() {
     //centerMode: true,
     arrows: false,
     dots:true,
-    speed: 50000,
+    speed: 300,
     centerPadding: '0px',
     infinite: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 50000,
     autoplay: true,
     margin:30,
     
