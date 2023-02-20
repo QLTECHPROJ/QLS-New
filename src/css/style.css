@@ -1972,3 +1972,27 @@ p {
 .solution_slider .slider_main_top .slick-list {
    height: 325px !important;
 }
+
+
+.meetpartner  .slick-dots li button {
+   width: 10px;
+   height: 10px;
+   margin: 5px 7px;
+   background: #D6D6D6;
+   display: block;
+   -webkit-backface-visibility: visible;
+   transition: opacity .2s ease;
+   border-radius: 30px;
+}
+.meetpartner .slick-dots li.slick-active button{
+ background: #00D4FF;
+ border-radius: 20px;
+ width: 50px;
+ height: 10px;  
+}
+.meetpartner .slick-dots li button:before{
+   opacity:0 !important;
+}
+.meetpartner .slick-dots {
+   bottom:-15px;
+}
