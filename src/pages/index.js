@@ -21,6 +21,8 @@ const IndexPage = ({ data }) => {
     // calculate delay time for each section
     return index * 500; // adjust delay time as needed
   };
+
+  
   
   return (
     <Layout>
