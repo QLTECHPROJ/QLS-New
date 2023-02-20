@@ -114,7 +114,7 @@ function NewSlider() {
               </div> */}
               </div>
               </div>
-              <div className='slidedetail'>
+              <div className='container slidedetail'>
                 <div className='row'>
                 <div className='counslidbx'>
                    <p className='coutslider'>{slideIndex + 1}/{data.allWpSolutions.totalCount}</p>
