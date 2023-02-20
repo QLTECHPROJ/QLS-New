@@ -1974,7 +1974,7 @@ p {
 }
 
 
-.slick-dots li button {
+.meetpartner  .slick-dots li button {
    width: 10px !important;
    height: 10px !important;
    margin: 5px 7px !important;
@@ -1984,16 +1984,16 @@ p {
    transition: opacity .2s ease !important;
    border-radius: 30px !important;
 }
-.slick-dots li.slick-active button{
+.meetpartner .slick-dots li.slick-active button{
  background: #00D4FF !important;
  border-radius: 20px !important;
  width: 50px !important;
  height: 10px !important;  
 }
-.slick-dots li button:before{
+.meetpartner .slick-dots li button:before{
    opacity:0 !important;
 }
-.slick-dots {
+.meetpartner .slick-dots {
    bottom:-15px !important;
 }
 
