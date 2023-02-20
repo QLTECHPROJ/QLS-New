@@ -15,7 +15,7 @@ export default function MeetSlider() {
     //centerMode: true,
     arrows: false,
     dots:true,
-    speed: 300,
+    speed: 50000,
     centerPadding: '0px',
     infinite: true,
     autoplaySpeed: 2000,
