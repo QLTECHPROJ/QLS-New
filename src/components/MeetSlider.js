@@ -4,13 +4,11 @@ import React, { useState, useEffect } from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Meetimg from '../image/parners1.png'
-import WOW from 'wowjs';
-import "wowjs/css/libs/animate.css"
+import ReactWOW from 'react-wow'
+import 'animate.css';
 import { Link, graphql,StaticQuery } from 'gatsby';
 export default function MeetSlider() {
-  useEffect(() => {
-    new WOW.WOW().init()
-  }, [])
+  
   const [MeetSettings, MeetSliderSettings] = useState({
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -85,18 +83,18 @@ export default function MeetSlider() {
         <div class="container">
             <div class="row" data-aos="fade-up"
      data-aos-anchor-placement="center-center" data-aos-duration="1000">
-                  <div className="wow fadeInUp">
+                  <ReactWOW animation='fadeInUp' duration='1s'>
                         <div class="col-lg-12 col-md-12 col-sm-12">
                             <div class="cret_prt_toptxt">
                                 <h1> <span class="titlecor">{data.wpPage.homePartnerSection.partnerHeading}</span></h1>
                                 <p class="font_y">{data.wpPage.homePartnerSection.supportersHeading}</p>
                             </div>
                         </div>
-                      </div>
+                      </ReactWOW>
                     </div>
             <div class="row" data-aos="fade-up"
      data-aos-anchor-placement="center-center" data-aos-duration="1000">
-                <div className="wow fadeInUp">
+                <ReactWOW animation='fadeInUp' duration='1s'>
                 <div class="col-md-12">
                     {/* <div class="owl-carousel owl-theme" id="partners"> */}
                     <Slider {...MeetSettings}>
@@ -130,7 +128,7 @@ export default function MeetSlider() {
               </Slider>
                       {/* </div> */}
                 </div>
-              </div>
+              </ReactWOW>
             </div>
         </div>
         </section>
