@@ -1969,12 +1969,12 @@ p {
    margin-right: 0;
 }
 
-/* .solution_slider .slider_main_top .slick-list {
+.solution_slider .slider_main_top .slick-list {
    height: 325px !important;
 }
 
 
-.meetpartner  .slick-dots li button {
+/* .meetpartner  .slick-dots li button {
    width: 10px !important;
    height: 10px !important;
    margin: 5px 7px !important;
