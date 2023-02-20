@@ -64,6 +64,11 @@ const IndexPage = ({ data }) => {
                   node {
                     id
                     title
+                    author {
+                      node {
+                        name
+                      }
+                    }
                     newsSection {
                       
                       imageArchivePage {
@@ -185,7 +190,7 @@ const IndexPage = ({ data }) => {
                                  <p><span><Calendar /></span>{node.date}</p>
                              </div>
                              <div className="newadminbx">
-                                 <p><span><Adminlogo /></span>Admin</p>
+                                 <p><span><Adminlogo /></span>{node.author.node.name}</p>
                              </div>
                          </div>
                          <h4 dangerouslySetInnerHTML={{ __html: node.excerpt.replace(/<p>/, "<h4>").replace(/<\/p>/, "</h4>") }} />

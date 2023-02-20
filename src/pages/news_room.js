@@ -18,6 +18,11 @@ export default function news_room() {
                   title
                   excerpt
                   date(formatString: "DD MMMM yyyy")
+                  author {
+                    node {
+                      name
+                    }
+                  }
                   newsSection {
                     imageArchivePage {
                       sourceUrl
@@ -83,7 +88,7 @@ export default function news_room() {
                                     <span>
                                     <Adminlogo />
                                     </span>
-                                    Admin
+                                    {node.author.node.name}
                                   </p>
                                 </div>
                               </div>
@@ -130,7 +135,7 @@ export default function news_room() {
                                  <p><span><Calendar /></span>{node.date}</p>
                              </div>
                              <div class="newadminbx">
-                                 <p><span><Adminlogo /></span>Admin</p>
+                                 <p><span><Adminlogo /></span>{node.author.node.name}</p>
                              </div>
                          </div>
                          <h4>{node.title}</h4>
