@@ -1690,9 +1690,9 @@ a.readmorebtn:hover {
  text-decoration: none;
 }
 
-.our_add_bar .our_call {
+/* .our_add_bar .our_call {
  margin-bottom: 0px !important;
-}
+} */
 
 .modal-content {
  background: #0B0C10 !important;
