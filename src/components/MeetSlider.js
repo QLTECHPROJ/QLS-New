@@ -79,7 +79,7 @@ export default function MeetSlider() {
               
 <>
 <div>
-<section class="newroom_sec2 pt ">
+<section class="newroom_sec2 pt meetpartner ">
         <div class="container">
             <div class="row" data-aos="fade-up"
      data-aos-anchor-placement="center-center" data-aos-duration="1000">
