@@ -165,7 +165,7 @@
 .newroom_sec2 .slick-list {
   margin: 0 -10px;
 }
-.newroom_sec2 .slick-dots li{margin: 0 20px;}
+/* .newroom_sec2 .slick-dots li{margin: 0 20px;}
 
 .newroom_sec2 .slick-dots li button:before
 {
@@ -192,7 +192,7 @@
     border-radius: 20px;
     width: 50px;
     height: 10px;
-}
+} */
 
 
 .container.slidedetail {
