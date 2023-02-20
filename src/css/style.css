@@ -1934,7 +1934,7 @@ button.slick-arrow.slick-next {
 
  .container.slidedetail .slider_main_top .slick-slider.slick-initialized button.slick-arrow.slick-prev {
    position: absolute;
-   left: 0;
+   left: 12px !important;
 }
 
 .container.slidedetail .slider_main_top .slick-slider.slick-initialized button.slick-arrow.slick-next {
