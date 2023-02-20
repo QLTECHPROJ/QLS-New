@@ -156,7 +156,7 @@
   height: 10px;
 }
 .newroom_sec2{
-  background: linear-gradient(180deg, #000000 0%, #0A2034 29.67%, #000000 63.39%, #0A2034 90.06%);
+  /* background: linear-gradient(180deg, #000000 0%, #0A2034 29.67%, #000000 63.39%, #0A2034 90.06%); */
   padding: 50px 0;
 }
 .newroom_sec2 .slick-slide > div {

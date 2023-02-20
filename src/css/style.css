@@ -1608,9 +1608,9 @@ visibility: hidden;
    background: #0b0c10;
    padding: 0 10px;
 }
-footer {
+/* footer {
    background: url(http://templates.stillidea.net/crazyhour/images/pattern.jpg);
-}
+} */
 section.newroom_sec2.pt.pb {
    overflow: hidden;
 }
