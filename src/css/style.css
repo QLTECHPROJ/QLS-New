@@ -2053,3 +2053,32 @@ p {
    z-index: 9999999999;
 }
 
+@media (min-width: 1400px){
+   .bottom_arrow{
+      max-width: 1320px; 
+   }
+       
+}
+@media (min-width: 1200px){
+   .bottom_arrow{
+   max-width: 1140px;
+   }
+       
+}
+@media (min-width: 992px){
+   .bottom_arrow{
+       max-width: 960px;
+   }
+       
+}
+@media (min-width: 768px){
+  .bottom_arrow{
+       max-width: 720px;
+   } 
+}
+@media (min-width: 576px){
+   .bottom_arrow{
+   max-width: 540px;
+   }
+       
+}
