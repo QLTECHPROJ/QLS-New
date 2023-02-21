@@ -252,21 +252,17 @@ export default function Footer() {
 
             </div>
                                
-            <div className="bottom_arrow">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-12">
+           
+              
                   <div className="inner_bottom">
                     <Link to='#footer_wrap'>
                                 <img src={`../../arrowdown.svg`} />
                     </Link>
                   </div>
-                  </div>
-                </div>
-              </div>
+                  
               
 
-            </div>
+            
 
             <div className="bottom_footer pb_25">
                 <div className="container">
