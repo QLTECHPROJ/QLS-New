@@ -111,7 +111,7 @@ const IndexPage = ({ data }) => {
 						<div className="col-md-12">
             
 							<div className="bner_sec_text_d"  >
-              <ReactWOW delay='1.5s' animation='fadeInUp' duration='1s'> 
+              <ReactWOW delay='1.5s' animation='fadeInUp' duration='2s'> 
 								<div className="bner_main_tx">
 									
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderHeading }} />
@@ -124,7 +124,7 @@ const IndexPage = ({ data }) => {
             
 						<div className="col-md-12">
 							<div className="bnersec_txt2 bn_cvb">
-              <ReactWOW delay='2.5s' animation='fadeInUp' duration='1s'> 
+              <ReactWOW delay='2.5s' animation='fadeInUp' duration='3s'> 
 								<div className="p_txt">
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderSubheading }} />
 								</div>

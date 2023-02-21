@@ -467,7 +467,8 @@ body{
  padding: 0;
  box-sizing: border-box;
  font-family: Colfax-Light;
- background: linear-gradient(180deg, #000000 0%, #0A2034 29.67%, #000000 63.39%, #0A2034 90.06%);
+ /* background: linear-gradient(180deg, #000000 0%, #0A2034 29.67%, #000000 63.39%, #0A2034 90.06%); */
+ background: linear-gradient(180deg, #031625 0%, #0A2034 20.83%, #051222 38.02%, #0A2034 90.06%);
 }
 p{
  margin: 0;
@@ -2018,3 +2019,5 @@ p {
 .meetpartner .slick-dots li button:before {
    opacity: 0 !important;
 }
+
+
