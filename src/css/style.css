@@ -2028,63 +2028,19 @@ p {
    object-fit: contain;
 }
 .inner_bottom {
-   right: 0;
-   bottom: 0;
-   z-index: 99999999;
-   width: 50px;
+   border: 3px solid #00d4ff;
    height: 50px;
-   background: transparent;
-   z-index: 99999999;
-   border: solid  3px #00D4FF;
-   padding: 5px;
-   margin-bottom: 50px;
-   right: 50%;
-   margin-right: 0;
+   margin-bottom: 20px;
    margin-left: auto;
-}
-.bottom_arrow {
-   width: 1140px;
-   background: transparent;
+   margin-right: 0;
+   padding: 5px;
+   right: 50px;
+   width: 50px;
+   z-index: 99999999;
    position: fixed;
-   bottom: 0;
-   left: 50%;
-   transform: translate(-50%, 10px);
-   text-align: right;
-   z-index: 9999999999;
-}
-
-@media (min-width: 576px){
-   .bottom_arrow{
-   max-width: 540px;
-   }
-       
-}
-
-@media (min-width: 768px){
-   .bottom_arrow{
-        max-width: 720px;
-    } 
- }
- 
- @media (min-width: 992px){
-   .bottom_arrow{
-       max-width: 960px;
-   }
-       
-}
-
-@media (min-width: 1200px){
-   .bottom_arrow{
-   max-width: 1140px;
-   }
-       
 }
 
 
-@media (min-width: 1400px){
-   .bottom_arrow{
-      max-width: 1320px; 
-   }
-       
-}
+
+
 
