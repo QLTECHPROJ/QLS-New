@@ -60,6 +60,9 @@
    padding: 0;
    box-sizing: border-box;
 }
+html {
+   scroll-behavior: smooth
+}
 body{
    margin: 0;
    padding: 0;
@@ -2047,4 +2050,6 @@ p {
    left: 50%;
    transform: translate(-50%, 10px);
    text-align: right;
+   z-index: 9999999999;
 }
+

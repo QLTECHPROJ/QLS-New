@@ -30,7 +30,7 @@ export default function Footer() {
         `}
         render={(data) => (
           <>
-            <footer>
+            <footer id="footer_wrap">
             <div class="footer_sec pt_50 ">
                 <div class="container">
                     <div id="block-8">
@@ -257,7 +257,9 @@ export default function Footer() {
                 <div className="row">
                   <div className="col-md-12">
                   <div className="inner_bottom">
+                    <Link to='#footer_wrap'>
                                 <img src={`../../arrowdown.svg`} />
+                    </Link>
                   </div>
                   </div>
                 </div>
