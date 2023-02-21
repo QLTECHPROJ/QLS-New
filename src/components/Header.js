@@ -39,7 +39,7 @@ const Overlay = styled.div`
   bottom: 0;
   display: ${({ open }) => (open ? "block" : "none")};
   z-index: 10;
-  animation: ${slideInLeft} 1s ease-in-out;
+  animation: ${slideInLeft} 0.7s ease-in-out;
 `;
 
 const Menu = styled.ul`
