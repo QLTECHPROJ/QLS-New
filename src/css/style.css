@@ -2021,3 +2021,30 @@ p {
 }
 
 
+.inner_bottom img {
+   object-fit: contain;
+}
+.inner_bottom {
+   right: 0;
+   bottom: 0;
+   z-index: 99999999;
+   width: 50px;
+   height: 50px;
+   background: transparent;
+   z-index: 99999999;
+   border: solid  3px #00D4FF;
+   padding: 5px;
+   margin-bottom: 50px;
+   right: 50%;
+   margin-right: 0;
+   margin-left: auto;
+}
+.bottom_arrow {
+   width: 1140px;
+   background: transparent;
+   position: fixed;
+   bottom: 0;
+   left: 50%;
+   transform: translate(-50%, 10px);
+   text-align: right;
+}
