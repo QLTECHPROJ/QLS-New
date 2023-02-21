@@ -2038,6 +2038,7 @@ p {
    width: 50px;
    z-index: 99999999;
    position: fixed;
+   bottom: 20px;
 }
 
 
