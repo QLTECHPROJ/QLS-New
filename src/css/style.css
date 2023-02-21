@@ -2042,5 +2042,8 @@ p {
 }
 
 
-
+.container.slidedetail {
+   max-width: 92%;
+   margin-right: 0;
+}
 
