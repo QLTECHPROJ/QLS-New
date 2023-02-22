@@ -13,7 +13,7 @@ import 'animate.css';
 import Calendar from "../components/Calendar";
 import Adminlogo from "../components/Adminlogo";
 import NewSlider from "../components/NewSlider";
-import MyComponent from "../components/MyComponent";
+//import MyComponent from "../components/MyComponent";
 //import MyComponent from "../components/MyComponent";
 
 
