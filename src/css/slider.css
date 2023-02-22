@@ -106,8 +106,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-     width: auto !important;
-    transform: none;
+     /* width: auto !important; */
+    transform: none !important;
     transition: all 500ms ease 0s;
 }
 .wrapper .slick-track{height: auto;}
@@ -199,3 +199,4 @@
   max-width: 1235px;
   margin-right: 0;
 } */
+
