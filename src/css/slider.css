@@ -91,7 +91,7 @@
   margin-right: 0px;
   margin-left: 0px;
   transition: all 500ms ease 0s;
-  transform: scale(1.2) !important;
+  transform: scale(1.2) 
 }
 }
 @media(max-width:1199px){
