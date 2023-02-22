@@ -81,16 +81,17 @@
   /* transform:none; */
   transition: all 500ms ease 0s;
   float: right !important ;
-  transform: scale(1.2) !important;
+  
 }
 .wrapper .slick-current.slick-active {
-  transform:none;
+  /* transform:none; */
   display: flex;
   align-items: center;
   justify-content: center;
   margin-right: 0px;
   margin-left: 0px;
   transition: all 500ms ease 0s;
+  transform: scale(1.2) !important;
 }
 }
 @media(max-width:1199px){
