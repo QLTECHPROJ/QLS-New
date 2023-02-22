@@ -190,3 +190,29 @@ font-size: 25px;
     display: none;
 }
 }
+
+
+@media(max-width: 1199px){
+	.social_list ul li a{
+		font-size: 27px;
+		margin-right: 10px;
+	}
+}
+@media(max-width: 575px){
+	.our_copy {
+    margin-bottom: 15px !important;
+}
+.our_pages_link .list_pages ul {
+    padding-left: 0;
+}
+.our_copy {
+    margin-bottom: 15px;
+}
+.earth_new_mio {
+    width: auto;
+    height: auto;
+}
+.imd_parner a{
+	border-radius:10px 10px 0 0;
+}
+}
