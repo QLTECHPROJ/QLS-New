@@ -32,7 +32,7 @@ function NewSlider() {
     afterChange: currentSlide => setSlideIndex(currentSlide),
     responsive: [
       {
-        breakpoint: 1199,
+        breakpoint: 1299,
         settings: {
           slidesToShow: 2.5,
           slidesToScroll: 1,

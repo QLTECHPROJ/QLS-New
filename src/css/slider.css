@@ -78,8 +78,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transform:none;
+  /* transform:none; */
   transition: all 500ms ease 0s;
+  float: right !important ;
+  transform: scale(1.2) !important;
 }
 .wrapper .slick-current.slick-active {
   transform:none;

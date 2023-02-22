@@ -13,6 +13,7 @@ import 'animate.css';
 import Calendar from "../components/Calendar";
 import Adminlogo from "../components/Adminlogo";
 import NewSlider from "../components/NewSlider";
+//import MyComponent from "../components/MyComponent";
 
 
 const IndexPage = ({ data }) => {
@@ -22,7 +23,7 @@ const IndexPage = ({ data }) => {
   //   return index * 500; // adjust delay time as needed
   // };
 
- 
+  
   
   return (
     <Layout>
@@ -93,6 +94,7 @@ const IndexPage = ({ data }) => {
               <>
 
               {/* <MyComponent /> */}
+              
 
 <section className="banner_sec" style={{ backgroundImage: `url(../../bnerimg.png)` }}>
 			
@@ -136,6 +138,8 @@ const IndexPage = ({ data }) => {
 				</div>
 			</div>
 		</section>
+
+    {/* <MyComponent /> */}
 
     <section className="about_us_sec pb_100 " style={{ backgroundImage: `url(../../Banne.png)` }}>
 			<div className="container">
