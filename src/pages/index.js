@@ -22,7 +22,7 @@ const IndexPage = ({ data }) => {
     return index * 500; // adjust delay time as needed
   };
 
-  
+ 
   
   return (
     <Layout>
@@ -99,7 +99,7 @@ const IndexPage = ({ data }) => {
 			<div className="our_banner_top">
 				<div className="container">
 					<div className="row justify-content-center">
-          <ReactWOW  animation='fadeInUp' duration="1s" delay='0.5s'>
+          <ReactWOW  animation='fadeInUp' duration="1s" delay='0.5s' >
                         <div className="col-md-12">
                             <div className="earth_new_mio" >
                                 <img src="../../earth_wrap.png" />
@@ -110,8 +110,8 @@ const IndexPage = ({ data }) => {
                                                  
 						<div className="col-md-12">
             
-							<div className="bner_sec_text_d"  >
-              <ReactWOW delay='1.5s' animation='fadeInUp' duration='1s'> 
+							<div className="bner_sec_text_d" >
+              <ReactWOW  animation='fadeInUp' duration='1s' delay='1.5s' > 
 								<div className="bner_main_tx">
 									
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderHeading }} />
@@ -123,9 +123,9 @@ const IndexPage = ({ data }) => {
 						</div>
             
 						<div className="col-md-12">
-							<div className="bnersec_txt2 bn_cvb">
-              <ReactWOW delay='2.5s' animation='fadeInUp' duration='1s'> 
-								<div className="p_txt">
+							<div className="bnersec_txt2 bn_cvb" >
+              <ReactWOW  animation='fadeInUp' duration='1s' delay='2.5s'> 
+								<div className="p_txt" >
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderSubheading }} />
 								</div>
                </ReactWOW>
