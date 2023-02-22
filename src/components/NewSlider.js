@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -17,6 +17,27 @@ function NewSlider() {
 //   const handleClick = () => {
 //     setAnimation(!animation);
 //   };
+const [elementWidth, setElementWidth] = useState(0);
+const elementRef = useRef(null);
+
+useEffect(() => {
+  function setWidth() {
+    if (elementRef.current) {
+      const leftMargin = parseInt(window.getComputedStyle(elementRef.current).marginLeft);
+      const width = window.innerWidth - leftMargin;
+      setElementWidth(width);
+    }
+  }
+
+  setWidth();
+
+  window.addEventListener('resize', setWidth);
+
+  return () => {
+    window.removeEventListener('resize', setWidth);
+  };
+}, []);
+
   const [slideIndex, setSlideIndex] = useState(0);
   const [sliderSettings, setSliderSettings] = useState({
     slidesToShow: 3,
@@ -115,6 +136,7 @@ function NewSlider() {
               </div>
               </div>
               <div className='container slidedetail'>
+              <div className="element" ref={elementRef} style={{ width: elementWidth }}>
                 <div className='row'>
                 <div className='counslidbx'>
                    <p className='coutslider'>{slideIndex + 1}/{data.allWpSolutions.totalCount}</p>
@@ -183,6 +205,8 @@ function NewSlider() {
                 </Slider>
                </div>
                 </div>
+              </div>
+
               </div>
                
 
