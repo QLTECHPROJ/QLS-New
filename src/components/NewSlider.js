@@ -34,7 +34,7 @@ function NewSlider() {
       {
         breakpoint: 1199,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 2.5,
           slidesToScroll: 1,
           infinite: true,
           initialSlide: 1
