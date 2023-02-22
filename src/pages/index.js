@@ -17,10 +17,10 @@ import NewSlider from "../components/NewSlider";
 
 const IndexPage = ({ data }) => {
  
-  const getAnimationDelay = (index) => {
-    // calculate delay time for each section
-    return index * 500; // adjust delay time as needed
-  };
+  // const getAnimationDelay = (index) => {
+  //   // calculate delay time for each section
+  //   return index * 500; // adjust delay time as needed
+  // };
 
  
   
@@ -111,7 +111,7 @@ const IndexPage = ({ data }) => {
 						<div className="col-md-12">
             
 							<div className="bner_sec_text_d" >
-              <ReactWOW  animation='fadeInUp' duration='1s' delay='1.5s' > 
+              <ReactWOW  animation='fadeInUp' duration='1s' delay='1.5s'> 
 								<div className="bner_main_tx">
 									
                 <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderHeading }} />
@@ -178,7 +178,7 @@ const IndexPage = ({ data }) => {
           <>
                 <div className="col-lg-6 col-md-6 col-sm-12 pb_25">
                   {/* <div className="wow flipInY" data-wow-duration="1s"> */}
-                  <ReactWOW animation="slideInUp" delay={`${getAnimationDelay(index)}ms`} duration="2s" >
+                  <ReactWOW animation="slideInUp"  duration="2s" >
                     <div className="newsec2_mnbox pb_25">
                         <img src={node.newsSection.imageArchivePage.sourceUrl} className="img-fluid" alt="" />
                         <div className="news_imgtxt">
