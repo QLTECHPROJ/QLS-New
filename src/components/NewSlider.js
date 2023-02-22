@@ -95,7 +95,7 @@ function NewSlider() {
             render={data => (
               
 <>
-<section className='solution_slider pt pb  '>
+<section className='solution_slider pt pb gh '>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12 col-md-12 col-sm-12'>
