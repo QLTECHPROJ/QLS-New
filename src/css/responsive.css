@@ -198,6 +198,26 @@ font-size: 25px;
 		margin-right: 10px;
 	}
 }
+
+@media(max-width: 991px){
+	.our_pages_link .list_pages ul {
+    padding-left: 0;
+}
+}
+
+
+
+@media(max-width: 767px){
+
+	.bottom_footer .our_copy {
+		margin-bottom: 10px;
+	}
+	
+	.imd_parner a{
+		border-radius:10px 10px 0 0;
+	}
+}
+
 @media(max-width: 575px){
 	.our_copy {
     margin-bottom: 15px !important;
@@ -214,10 +234,5 @@ font-size: 25px;
 }
 .imd_parner a{
 	border-radius:10px 10px 0 0;
-}
-}
-@media(max-width: 991px){
-	.our_pages_link .list_pages ul {
-    padding-left: 0;
 }
 }
