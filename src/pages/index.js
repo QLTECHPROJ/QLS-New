@@ -100,7 +100,7 @@ const IndexPage = ({ data }) => {
       <div className="row justify-content-center">
         <div className="col-md-12">
           <div className="earth_new_mio invisible">
-            <ReactWOW animation="fadeInUp" duration="1s" delay="0.5s" callback={(node) => {
+            <ReactWOW animation="fadeInUp" duration="1s" delay="10s" callback={(node) => {
               node.parentNode.classList.remove('invisible');
               node.parentNode.classList.add('visible');
             }}>
@@ -110,7 +110,7 @@ const IndexPage = ({ data }) => {
         </div>
         <div className="col-md-12">
           <div className="bner_sec_text_d invisible">
-            <ReactWOW animation="fadeInUp" duration="1s" delay="1.5s" callback={(node) => {
+            <ReactWOW animation="fadeInUp" duration="1s" delay="10s" callback={(node) => {
               node.parentNode.classList.remove('invisible');
               node.parentNode.classList.add('visible');
             }}>
@@ -122,7 +122,7 @@ const IndexPage = ({ data }) => {
         </div>
         <div className="col-md-12">
           <div className="bnersec_txt2 bn_cvb invisible">
-            <ReactWOW animation="fadeInUp" duration="1s" delay="2.5s" callback={(node) => {
+            <ReactWOW animation="fadeInUp" duration="1s" delay="10s" callback={(node) => {
               node.parentNode.classList.remove('invisible');
               node.parentNode.classList.add('visible');
             }}>
