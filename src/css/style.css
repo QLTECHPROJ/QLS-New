@@ -2063,3 +2063,14 @@ p {
 } */
 
 
+.banner_sec .invisible {
+   visibility: hidden !important;
+ }
+
+ 
+ .visible {
+   opacity: 1;
+   visibility: visible;
+   
+ }
+ 

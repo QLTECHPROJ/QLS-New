@@ -94,48 +94,50 @@ const IndexPage = ({ data }) => {
 
               {/* <MyComponent /> */}
 
-<section className="banner_sec" style={{ backgroundImage: `url(../../bnerimg.png)` }}>
-			
-			<div className="our_banner_top">
-				<div className="container">
-					<div className="row justify-content-center">
-          <ReactWOW  animation='fadeInUp' duration="1s" delay='0.5s' >
-                        <div className="col-md-12">
-                            <div className="earth_new_mio" >
-                                <img src="../../earth_wrap.png" />
-                            </div>
-                          
-                        </div>
-                        </ReactWOW>
-                                                 
-						<div className="col-md-12">
-            
-							<div className="bner_sec_text_d" >
-              <ReactWOW  animation='fadeInUp' duration='1s' delay='1.5s'> 
-								<div className="bner_main_tx">
-									
-                <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderHeading }} />
-                
-								</div>
-                </ReactWOW>
-							</div>
-              
-						</div>
-            
-						<div className="col-md-12">
-							<div className="bnersec_txt2 bn_cvb" >
-              <ReactWOW  animation='fadeInUp' duration='1s' delay='2.5s'> 
-								<div className="p_txt" >
-                <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderSubheading }} />
-								</div>
-               </ReactWOW>
-							</div>
-						</div>
-                     
-					</div>
-				</div>
-			</div>
-		</section>
+              <section className="banner_sec" style={{ backgroundImage: `url(../../bnerimg.png)` }}>
+  <div className="our_banner_top">
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col-md-12">
+          <div className="earth_new_mio invisible">
+            <ReactWOW animation="fadeInUp" duration="1s" delay="0.5s" callback={(node) => {
+              node.parentNode.classList.remove('invisible');
+              node.parentNode.classList.add('visible');
+            }}>
+              <img src="../../earth_wrap.png" className="animated fadeInUp" />
+            </ReactWOW>
+          </div>
+        </div>
+        <div className="col-md-12">
+          <div className="bner_sec_text_d invisible">
+            <ReactWOW animation="fadeInUp" duration="1s" delay="1.5s" callback={(node) => {
+              node.parentNode.classList.remove('invisible');
+              node.parentNode.classList.add('visible');
+            }}>
+              <div className="bner_main_tx">
+                <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderHeading }} className="animated fadeInUp" />
+              </div>
+            </ReactWOW>
+          </div>
+        </div>
+        <div className="col-md-12">
+          <div className="bnersec_txt2 bn_cvb invisible">
+            <ReactWOW animation="fadeInUp" duration="1s" delay="2.5s" callback={(node) => {
+              node.parentNode.classList.remove('invisible');
+              node.parentNode.classList.add('visible');
+            }}>
+              <div className="p_txt">
+                <div dangerouslySetInnerHTML={{ __html: data.wpPage.homeSlider.sliderSubheading }} className="animated fadeInUp" />
+              </div>
+            </ReactWOW>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
     <section className="about_us_sec pb_100 " style={{ backgroundImage: `url(../../Banne.png)` }}>
 			<div className="container">
