@@ -499,10 +499,10 @@ img{
 /*About Us  Page*/
 /*breadcum Design*/
 .img_wrap_u {
-   text-align: center;
-  height: 520px;
-   width: 520px;
+   height: 449px;
    margin: 0 auto;
+   text-align: center;
+   width: 449px;
 }
 .pt{
  padding-top: 60px;
@@ -2047,3 +2047,7 @@ p {
    margin-right: 0;
 } */
 
+.breadcumb {
+   padding-top: 100px;
+   box-sizing: border-box;
+}
