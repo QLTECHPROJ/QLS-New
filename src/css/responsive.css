@@ -216,3 +216,8 @@ font-size: 25px;
 	border-radius:10px 10px 0 0;
 }
 }
+@media(max-width: 991px){
+	.our_pages_link .list_pages ul {
+    padding-left: 0;
+}
+}

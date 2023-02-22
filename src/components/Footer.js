@@ -268,13 +268,13 @@ export default function Footer() {
                 <div className="container">
                     <div id="block-9">
                         <div className="row">
-                            <div className="col-md-7 col-lg-7 col-sm-12">
+                            <div className="col-md-6 col-lg-7 col-sm-12">
                                 <div className="our_copy">
                                     <p>Copyright ©2022 SPACE. Powered By <Link to="" 
                                             target="_blank"> QL Tech </Link></p>
                                 </div>
                             </div>
-                            <div className="col-md-5 col-lg-5 col-sm-12">
+                            <div className="col-md-6 col-lg-5 col-sm-12">
                                 <div className="our_copy hgbd " style={{ textAlign: "center" }}>
                                     <p>All Rights Reserved <Link to=""  target="_blank">
                                             Terms and Conditions Privacy Policy</Link></p>
