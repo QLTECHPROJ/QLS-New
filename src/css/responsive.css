@@ -243,3 +243,9 @@ font-size: 25px;
 		box-sizing:border-box;
 	}
 	}
+
+	@media (max-width: 767px){
+		.log_menu, .menm_bar, .our_conts_btn {
+			flex: unset;
+		}
+		}
