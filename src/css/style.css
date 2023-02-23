@@ -2156,3 +2156,8 @@ p {
     background: #fff;
     color: #00d4ff !important;
 }
+
+a.readmorebtn:hover {
+   color: #fff;
+   font-weight: 600;
+}
