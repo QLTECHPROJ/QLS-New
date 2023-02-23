@@ -2103,3 +2103,19 @@ p {
   .news_imgtxt h4 {
       font-weight: 600;
   }
+
+  .news_txtbx h3 {
+   font-weight: 600;
+}
+
+.news_imgtxt h4 {
+   font-weight: 600;
+}
+
+.newculbox p {
+   font-weight: 600;
+}
+
+.newadminbx p {
+   font-weight: 600;
+}
