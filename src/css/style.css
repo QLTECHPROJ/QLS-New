@@ -2095,3 +2095,11 @@ p {
        line-height: 28px;
    }
    }
+
+   .news_txtbx h3 {
+      font-weight: 600;
+  }
+  
+  .news_imgtxt h4 {
+      font-weight: 600;
+  }
