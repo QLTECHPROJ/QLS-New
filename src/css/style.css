@@ -2120,3 +2120,11 @@ p {
    font-weight: 600;
 }
 
+@media (max-width: 575px){
+   .about_text h1 {
+       left: 50%;
+       transform: translate(-50%,-50%);
+       font-size: 28px;
+       width: 100%;
+   }
+   }
