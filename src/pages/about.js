@@ -1,7 +1,18 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import { Link, graphql, StaticQuery } from "gatsby";
+import { Helmet } from 'react-helmet';
+
 export default function about() {
+  <Helmet >
+    <style type="text/css">
+    {`
+      body {
+        background: linear-gradient(180deg, #000000 0%, #0A2034 29.67%, #000000 63.39%, #0A2034 90.06%);
+    }
+    `}
+  </style>
+  </Helmet>
   return (
     <Layout>
 
