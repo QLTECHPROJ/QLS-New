@@ -2170,7 +2170,7 @@ a.readmorebtn:hover {
    margin-top: 0;
 }
 
-.modal.show .modal-dialog button.btn-close {
+.modal.modal-dialog button.btn-close {
    position: absolute;
    right: 20px;
    top: 20px;
