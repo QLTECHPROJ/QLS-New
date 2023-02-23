@@ -40,7 +40,7 @@ export default ({ data }) => {
                             </div>
                         </div>
                         <div class="cont_dcs">
-                            <p dangerouslySetInnerHTML={{ __html: news.content }} />
+                            <div dangerouslySetInnerHTML={{ __html: news.content }} />
                         </div>
                     </div>
                 </div>
