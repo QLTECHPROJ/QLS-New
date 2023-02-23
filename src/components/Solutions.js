@@ -83,7 +83,7 @@ export default function Solutions() {
                             </div>
                             {selectedIndex === index ? (
             <>
-                          <div class="sol_cntbx" id="solchang_colr1" style={{ background: '#023558' , borderRadius: '0px 0px 20px 20px', padding: '20px 15px',  display: 'block', margin: "-20px 0px 0px" }}>
+                          <div class="sol_cntbx" id="solchang_colr1" style={{ background: '#023558' , borderRadius: '0px 0px 20px 20px', padding: '20px 15px',  display: 'block', margin: "-20px 0px 0px", transition: "all 0.5s ease-out" }}>
                             <div className="solmntxt" style={{ backgroundColor: '#023558', color: '#fff' }}>
                                 <h3 style={{ backgroundColor: '#023558', color: '#fff' }}>{node.title}</h3>
                                 

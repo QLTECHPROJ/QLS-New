@@ -101,7 +101,7 @@ const IndexPage = ({ data }) => {
 			<div className="our_banner_top">
 				<div className="container">
 					<div className="row justify-content-center">
-          <ReactWOW  animation='fadeInUp' duration="1s" delay='0.5s' >
+          <ReactWOW  animation='fadeInUp' duration="1s" delay='0.5s'  >
                         <div className="col-md-12">
                             <div className="earth_new_mio" >
                                 <img src="../../earth_wrap.png" />

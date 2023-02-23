@@ -2147,3 +2147,12 @@ p {
    display: block;
    cursor: pointer;
 }
+
+.btn_ery a{
+   border: solid 2px #00d4ff;
+}
+
+.our_conts_btn .btn_ery a:hover {
+    background: #fff;
+    color: #00d4ff !important;
+}
