@@ -72,7 +72,7 @@ export default function news_room() {
                             <div className="news_txtbx pb_25">
                               {/* <h3>{node.excerpt}</h3> */}
                               {/* <h3 dangerouslySetInnerHTML={{ __html: node.excerpt }} /> */}
-                              <h3 dangerouslySetInnerHTML={{ __html: node.excerpt.replace(/<p>/, "<h3>").replace(/<\/p>/, "</h3>") }} />
+                              <div dangerouslySetInnerHTML={{ __html: node.excerpt.replace(/<p>/, "<h3>").replace(/<\/p>/, "</h3>") }} />
 
                               <div className="newtxtbx pb_25">
                                 <div className="newculbox">
@@ -124,7 +124,7 @@ export default function news_room() {
                         <div class="news_imgtxt">
                             {/* <h4>{node.excerpt}</h4> */}
                             {/* <h4 dangerouslySetInnerHTML={{ __html: node.excerpt }} /> */}
-                            <h4 dangerouslySetInnerHTML={{ __html: node.excerpt.replace(/<p>/, "<h4>").replace(/<\/p>/, "</h4>") }} />
+                            <div dangerouslySetInnerHTML={{ __html: node.excerpt.replace(/<p>/, "<h4>").replace(/<\/p>/, "</h4>") }} />
 
                         </div>
                        
