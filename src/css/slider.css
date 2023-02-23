@@ -214,4 +214,8 @@
   .wrapper .slick-slide {
     justify-content: left;
   }
+  .wrapper .slick-current.slick-active {
+    transform: none !important;
+    justify-content: left !important;
+  }
 }
