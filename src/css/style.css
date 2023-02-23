@@ -2131,3 +2131,14 @@ p {
    .newroomimg_bx {
       margin-bottom: 55px;
   }
+
+  .cont_dcs p {
+   font-size: 20px;
+   line-height: 24px;
+   margin-bottom: 15px !important;
+   font-weight: 400 !important;
+}
+.news_dtbx h3 {
+   padding: 20px 0px;
+   box-sizing: border-box;
+}
