@@ -4,8 +4,18 @@ import React from "react"
 import { Link, graphql, StaticQuery } from "gatsby"
 import Layout from "../components/Layout"
 import "bootstrap/dist/css/bootstrap.css";
+import { Helmet } from "react-helmet";
 //import news_sidebar from "../pages/news_sidebar";
 export default ({ data }) => {
+  <Helmet >
+    <style type="text/css">
+    {`
+      body {
+        background: linear-gradient(180deg, #000000 0%, #0A2034 29.67%, #000000 63.39%, #0A2034 90.06%);
+    }
+    `}
+  </style>
+  </Helmet>
   const news = data.allWpNews.edges[0].node
   console.log(news)
   

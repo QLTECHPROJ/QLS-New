@@ -4,7 +4,17 @@ import { Link, graphql, StaticQuery } from "gatsby";
 import ArrowRightIcon from "../components/ArrowRightIcon";
 import Calendar from "../components/Calendar";
 import Adminlogo from "../components/Adminlogo";
+import { Helmet } from "react-helmet";
 export default function news_room() {
+  <Helmet >
+    <style type="text/css">
+    {`
+      body {
+        background: linear-gradient(180deg, #000000 0%, #0A2034 29.67%, #000000 63.39%, #0A2034 90.06%);
+    }
+    `}
+  </style>
+  </Helmet>
   return (
     <Layout>
       <StaticQuery
