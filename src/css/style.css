@@ -2068,3 +2068,15 @@ p {
    height: 100px;
    margin-left: 20px; */
  }
+
+ .menm_bar {
+   flex: 1;
+}
+
+.log_menu {
+   flex: 1;
+}
+
+.our_conts_btn {
+   flex: 1;
+}
