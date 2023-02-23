@@ -96,7 +96,7 @@ const Header = () => {
       `}
       render={(data) => (
         <>
-          <header className="new_header">
+          <header className="new_header" id="header_wrap">
             <div className="container">
               <div className="row">
                 <div className="col-md-12">

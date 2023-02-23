@@ -7,8 +7,23 @@ import FacebookIcon from "./FacebookIcon ";
 import YoutubeIcon  from "./YoutubeIcon ";
 import Twitter from "./Twitter";
 import Instgram from "./Instgram";
-
+import { useEffect, useState } from "react";
 export default function Footer() {
+
+  const [isAtBottom, setIsAtBottom] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isBottom = window.innerHeight + window.pageYOffset >= document.body.offsetHeight
+      setIsAtBottom(isBottom)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll)
+    }
+  }, [])
   return (
     <>
       <StaticQuery
@@ -254,14 +269,30 @@ export default function Footer() {
                                
            
               
-                  <div className="inner_bottom">
+                  {/* <div className="inner_bottom">
                     <Link to='#footer_wrap'>
                                 <img src={`../../arrowdown.svg`} />
                     </Link>
-                  </div>
+                  </div> */}
                   
               
-
+                  <div>
+      {isAtBottom ? (
+        <div className="inner_bottom">
+          <Link to='#header_wrap' onClick={() => setIsAtBottom(false)}>
+            <img src={`../../arrowdown1.svg`} />
+          </Link>
+        </div>
+      ) : (
+        <div className="inner_bottom">
+          <Link to='#footer_wrap' onClick={() => setIsAtBottom(true)}>
+            <img src={`../../arrowdown.svg`} />
+          </Link>
+        </div>
+      )}
+      {/* <div id="header_wrap">Header content goes here</div>
+      <div id="footer_wrap">Footer content goes here</div> */}
+    </div>
             
 
             <div className="bottom_footer pb_25">
