@@ -115,6 +115,12 @@
     transition: all 500ms ease 0s;
 }
 .wrapper .slick-track{height: auto;}
+
+.wrapper .slick-slide > div {
+  margin: 0 10px;
+  
+}
+
 }
 
 .wrapper .slick-slide{display: flex !important;}
