@@ -2080,3 +2080,7 @@ p {
 .our_conts_btn {
    flex: 1;
 }
+
+.logo_sec a img {
+   width: auto;
+}
