@@ -115,7 +115,7 @@ export default function about() {
                     data.wpPage.about.ourteam.map((prop, i) => {
                       return (
                         <>
-                            <div className="col-lg-3 col-md-3 col-sm-3">
+                            <div className="col-lg-3 col-md-4 col-sm-6">
 							<div className="creat_partner">
 								<div className="partner_mainbx">
 									<div className="partnr_imgbx">
@@ -168,7 +168,7 @@ export default function about() {
                       return (
                         <>
 
-                            <div className="col-lg-3 col-md-3 col-sm-3">
+                            <div className="col-lg-3 col-md-4 col-sm-6">
                                     <div className="creat_partner">
                                         <div className="partner_mainbx">
                                             <div className="partnr_imgbx">
