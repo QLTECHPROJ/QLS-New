@@ -2143,3 +2143,7 @@ p {
    box-sizing: border-box;
 }
 
+.social_txt a {
+   display: block;
+   cursor: pointer;
+}

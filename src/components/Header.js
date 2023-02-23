@@ -173,9 +173,9 @@ const Header = () => {
 
                     <div class="log_menu">
                     <div class="logo_sec">
-                    <a href="#">
+                    <Link to={"/"}>
                         <img src="../logo.png" alt="logomain" />
-                    </a>
+                    </Link>
                 </div>
                 </div>
                                     <ContactModal />
