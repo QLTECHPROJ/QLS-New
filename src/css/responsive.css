@@ -236,3 +236,10 @@ font-size: 25px;
 	border-radius:10px 10px 0 0;
 }
 }
+
+@media (max-width: 991px){
+	.news_imgtxt {
+		padding: 30px;
+		box-sizing:border-box;
+	}
+	}
