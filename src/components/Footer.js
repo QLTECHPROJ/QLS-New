@@ -89,7 +89,7 @@ export default function Footer() {
                                 </Link>
                               </li>
                               <li>
-                                <Link to="https://www.youtube.com/channel/UC6xhk9nI6VxQ0UJpLjDmKvA/videos"
+                                <Link to=""
                                   
                                   target="_blank"
                                 >
@@ -113,7 +113,7 @@ export default function Footer() {
                                 </Link>
                               </li>
                               <li>
-                                <Link to="https://www.youtube.com/channel/UC6xhk9nI6VxQ0UJpLjDmKvA/videos"
+                                <Link to=""
                                   
                                   target="_blank"
                                 >
