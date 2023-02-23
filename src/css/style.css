@@ -2084,3 +2084,7 @@ p {
 .logo_sec a img {
    width: auto;
 }
+
+.solmntxt p {
+   margin-bottom: 10px !important;
+}
