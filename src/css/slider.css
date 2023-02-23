@@ -8,7 +8,7 @@
   
 
 .wrapper .slick-slide > div {
-  margin: 0 10px;
+  margin: 0;
   
 }
 
@@ -25,7 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 90px;
+  margin-right: 75px;
   margin-left: 75px;
   transition: all 500ms ease 0s;
 }
