@@ -240,7 +240,7 @@ a{color:#336699;}
 }
 
 
-.banersec__bg::after {
+/* .banersec__bg::after {
    content: "";
    background: linear-gradient(#000000, #0A2034);;
    left: 0;
@@ -248,7 +248,7 @@ a{color:#336699;}
    height: 100%;
    width: 100%;
    display: block;
-}
+} */
 .bner_sec_text{
    position: relative;
    background-position: top right;

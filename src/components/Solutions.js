@@ -109,6 +109,7 @@ export default function Solutions() {
                                 
                                 <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
                             </div>
+                            
               <Link to='' onClick={(event) => {event.preventDefault(); handleClick(index)}} className="readmorebtn">Read More <span><ArrowRightIcon /></span></Link>
 
             </>
