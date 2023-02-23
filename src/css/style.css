@@ -2162,3 +2162,10 @@ a.readmorebtn:hover {
    font-weight: 600;
 }
 
+.fade.modal.show {
+   z-index: 999999;
+}
+
+.header_Gf {
+   margin-top: 0;
+}
